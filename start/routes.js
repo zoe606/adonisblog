@@ -30,3 +30,5 @@ Route.get('/there/:id', function({ params }) {
 })
 
 Route.on('/home').render('home')
+
+Route.get('/posts', 'PostController.index')
